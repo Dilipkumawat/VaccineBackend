@@ -1,0 +1,31 @@
+<md:EntityDescriptor entityID="https://nexus.tatacommunications.com/secureauth195/" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="0" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFZDCCBEygAwIBAgIKfpnuEwAAAAAFPDANBgkqhkiG9w0BAQUFADCBxzELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExHzAdBgNVBAoTFlNlY3VyZUF1dGggQ29ycG9yYXRpb24xOzA5BgNVBAsTMihjKSAyMDEyIFNlY3VyZUF1dGggQ29ycCAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR0wGwYDVQQLExRDZXJ0aWZpY2F0ZSBTZXJ2aWNlczEmMCQGA1UEAxMdU2VjdXJlQXV0aCBJbnRlcm1lZGlhdGUgQ0EgMUEwHhcNMTMwODI3MTg1MTIxWhcNMjMwODI3MTg1MTIxWjCBnjELMAkGA1UEBhMCVVMxETAPBgNVBAgTCE5ldyBZb3JrMREwDwYDVQQHEwhOZXcgWW9yazEcMBoGA1UEChMTVGF0YSBDb21tdW5pY2F0aW9uczEaMBgGA1UECxMRU2VjdXJpdHkgRW5naW5lZXIxLzAtBgNVBAMTJlNlY3VyZUF1dGgwMWFWTS50YXRhY29tbXVuaWNhdGlvbnMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyk+5SZoaqcXVPw7tm1ZGB856T7zGHCiAwWyr8AK2XzGL6zuAmpfPhXsEH/5VAdh/YXX6bDt/vlpOa6dYXFLSLYrPf0qtGPuT5G0Z2jYIW8WW7dSxF6RQp++jndirW1JEIHBV8r40cMZp6u2mz1D7awn4A54YQziVqqTvpUMRvUekoELs7BNYoRf/bpU7XVqWm9jrAMgzgXM6kkCR6tN8wvSVi6YMIFaGXUIU5pbmoZCu+8XFjKh8+v3ieWuBdXOt/TOY0z8ynGt7pQWRyVNa+mpy3aCwV1uNrZo8gX0KnyNNTpWCiszuovWV4AzycEoTP+QI7pS9HV9LeBslzSHpNwIDAQABo4IBdzCCAXMwDgYDVR0PAQH/BAQDAgTwMCAGA1UdJQEB/wQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQUN92kQgCVSWyAe+rS7V5tKxqBDXowHwYDVR0jBBgwFoAUxgSdmPDKdjfM0WXV/LP7dSy5Fg0wYwYDVR0fBFwwWjBYoFagVIZSaHR0cDovL3g1MDkubXVsdGlmYWN0b3J0cnVzdDMuY29tL0NlcnRJbmZvL1NlY3VyZUF1dGglMjBJbnRlcm1lZGlhdGUlMjBDQSUyMDFBLmNybDCBmQYIKwYBBQUHAQEEgYwwgYkwgYYGCCsGAQUFBzAChnpodHRwOi8veDUwOS5tdWx0aWZhY3RvcnRydXN0My5jb20vQ2VydEluZm8vU0FJbnRDQS0xQS5iYW5uZXIubXVsdGlmYWN0b3J0cnVzdDMuY29tX1NlY3VyZUF1dGglMjBJbnRlcm1lZGlhdGUlMjBDQSUyMDFBLmNydDANBgkqhkiG9w0BAQUFAAOCAQEAbvS2qARLvLSatUQcBUzwkoT/52ELaf6KcGqPi7m+pvWJQihA8TeIWRNUbp/HCHu/Cp1R0cbDrCPWQxmf30sg3nIXDb9AbX4CwH/mCzUKgV0X4jSeB72KvZUD3zue9TRFvnSEEOfo2XY62Dz8Jue+fCK0vKg8RFYl4NGYEZ0ktNwddI2B+t/FYtWlhxdpB7O7PnCDlBQq47M2cTJ7uN/53WGHnHnbCK5OrX2Tntd5gGDualOS/ylzFThdenwpa+rO2FF3z9zvySqsUvq6tuH57Q/4TW5sktU464kFvFPqvdOp1LiwL1dCPv3v/+iX9nZ9m/AdKG75f+houciciRO/6g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://nexus.tatacommunications.com/SecureAuth195/" index="0" isDefault="1" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+  </md:IDPSSODescriptor>
+  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFZDCCBEygAwIBAgIKfpnuEwAAAAAFPDANBgkqhkiG9w0BAQUFADCBxzELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExHzAdBgNVBAoTFlNlY3VyZUF1dGggQ29ycG9yYXRpb24xOzA5BgNVBAsTMihjKSAyMDEyIFNlY3VyZUF1dGggQ29ycCAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR0wGwYDVQQLExRDZXJ0aWZpY2F0ZSBTZXJ2aWNlczEmMCQGA1UEAxMdU2VjdXJlQXV0aCBJbnRlcm1lZGlhdGUgQ0EgMUEwHhcNMTMwODI3MTg1MTIxWhcNMjMwODI3MTg1MTIxWjCBnjELMAkGA1UEBhMCVVMxETAPBgNVBAgTCE5ldyBZb3JrMREwDwYDVQQHEwhOZXcgWW9yazEcMBoGA1UEChMTVGF0YSBDb21tdW5pY2F0aW9uczEaMBgGA1UECxMRU2VjdXJpdHkgRW5naW5lZXIxLzAtBgNVBAMTJlNlY3VyZUF1dGgwMWFWTS50YXRhY29tbXVuaWNhdGlvbnMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyk+5SZoaqcXVPw7tm1ZGB856T7zGHCiAwWyr8AK2XzGL6zuAmpfPhXsEH/5VAdh/YXX6bDt/vlpOa6dYXFLSLYrPf0qtGPuT5G0Z2jYIW8WW7dSxF6RQp++jndirW1JEIHBV8r40cMZp6u2mz1D7awn4A54YQziVqqTvpUMRvUekoELs7BNYoRf/bpU7XVqWm9jrAMgzgXM6kkCR6tN8wvSVi6YMIFaGXUIU5pbmoZCu+8XFjKh8+v3ieWuBdXOt/TOY0z8ynGt7pQWRyVNa+mpy3aCwV1uNrZo8gX0KnyNNTpWCiszuovWV4AzycEoTP+QI7pS9HV9LeBslzSHpNwIDAQABo4IBdzCCAXMwDgYDVR0PAQH/BAQDAgTwMCAGA1UdJQEB/wQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQUN92kQgCVSWyAe+rS7V5tKxqBDXowHwYDVR0jBBgwFoAUxgSdmPDKdjfM0WXV/LP7dSy5Fg0wYwYDVR0fBFwwWjBYoFagVIZSaHR0cDovL3g1MDkubXVsdGlmYWN0b3J0cnVzdDMuY29tL0NlcnRJbmZvL1NlY3VyZUF1dGglMjBJbnRlcm1lZGlhdGUlMjBDQSUyMDFBLmNybDCBmQYIKwYBBQUHAQEEgYwwgYkwgYYGCCsGAQUFBzAChnpodHRwOi8veDUwOS5tdWx0aWZhY3RvcnRydXN0My5jb20vQ2VydEluZm8vU0FJbnRDQS0xQS5iYW5uZXIubXVsdGlmYWN0b3J0cnVzdDMuY29tX1NlY3VyZUF1dGglMjBJbnRlcm1lZGlhdGUlMjBDQSUyMDFBLmNydDANBgkqhkiG9w0BAQUFAAOCAQEAbvS2qARLvLSatUQcBUzwkoT/52ELaf6KcGqPi7m+pvWJQihA8TeIWRNUbp/HCHu/Cp1R0cbDrCPWQxmf30sg3nIXDb9AbX4CwH/mCzUKgV0X4jSeB72KvZUD3zue9TRFvnSEEOfo2XY62Dz8Jue+fCK0vKg8RFYl4NGYEZ0ktNwddI2B+t/FYtWlhxdpB7O7PnCDlBQq47M2cTJ7uN/53WGHnHnbCK5OrX2Tntd5gGDualOS/ylzFThdenwpa+rO2FF3z9zvySqsUvq6tuH57Q/4TW5sktU464kFvFPqvdOp1LiwL1dCPv3v/+iX9nZ9m/AdKG75f+houciciRO/6g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://nexus.tatacommunications.com/SecureAuth195/" />
+  </md:AttributeAuthorityDescriptor>
+</md:EntityDescriptor>
